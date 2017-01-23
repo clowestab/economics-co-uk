@@ -16,3 +16,7 @@
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="twitter:title" content="{{ page.title }}" />
     {% endif %}
+
+    {% if site.google_verify %}
+    <meta name="google-site-verification" content="{{ site.google_verify }}">
+    {% endif %}
